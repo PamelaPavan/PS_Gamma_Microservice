@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "authenticationType": "jwt",
+    "baseName": "gateway",
+    "buildTool": "maven",
+    "cacheProvider": null,
+    "clientFramework": "angular",
+    "clientTestFrameworks": [],
+    "clientTheme": "cosmo",
+    "clientThemeVariant": "dark",
+    "creationTimestamp": 1742132894484,
+    "databaseType": "no",
+    "devDatabaseType": null,
+    "enableHibernateCache": null,
+    "enableTranslation": true,
+    "entities": [],
+    "feignClient": null,
+    "jhipsterVersion": "8.8.0",
+    "jwtSecretKey": "MWJlZWI5ZTkxNjQ0ZTA0NTJlNDg2OTk5OTc2Zjg5MjdmZmU3NzZhODBmZGRkNDJjMGQzNGQ2ZWJhNDA5YWQ2OWY1N2UwMGJmYzYwNDJlMjkyYjM2YTYxODMyODMzOTkyODU4NDFiNmM2Y2FkNDE1ODE1OTk0NTM3OWE4YTY1Mjg=",
+    "languages": ["pt-br", "en"],
+    "microfrontend": true,
+    "microfrontends": [
+      {
+        "baseName": "mFront1"
+      },
+      {
+        "baseName": "mFront2"
+      }
+    ],
+    "monorepository": true,
+    "nativeLanguage": "pt-br",
+    "packageName": "com.mycompany.myapp",
+    "prodDatabaseType": null,
+    "reactive": true,
+    "serverPort": "8085",
+    "serviceDiscoveryType": "eureka",
+    "skipCommitHook": true,
+    "syncUserWithIdp": null,
+    "testFrameworks": [],
+    "withAdminUi": true
+  }
+}

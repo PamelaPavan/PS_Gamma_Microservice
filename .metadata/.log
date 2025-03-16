@@ -161,3 +161,20 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:j
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2025-03-16 10:05:08.124
 !MESSAGE Hibernate compile-time tooling 6.6.4.Final
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-16 10:57:24.583
+!MESSAGE Classpath changed for project: gateway
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-16 10:57:24.739
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:98)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-16 10:57:35.448
+!MESSAGE Classpath changed for project: gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-16 10:57:35.455
+!MESSAGE Boot project ADDED: gateway

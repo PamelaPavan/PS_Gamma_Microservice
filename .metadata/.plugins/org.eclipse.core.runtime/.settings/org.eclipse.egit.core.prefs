@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\pamel\\OneDrive\\Documentos\\jhipster\\PsGamma MicroService\\service\\.git;
-GitRepositoriesView.GitDirectories.relative=service\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\pamel\\OneDrive\\Documentos\\jhipster\\PsGamma MicroService\\service\\.git;C\:\\Users\\pamel\\OneDrive\\Documentos\\jhipster\\PsGamma MicroService\\.git;
+GitRepositoriesView.GitDirectories.relative=service\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
